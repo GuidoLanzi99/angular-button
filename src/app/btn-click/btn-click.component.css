@@ -1,0 +1,22 @@
+
+.butt {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: coral;
+    color: yellow;
+    font-size: 2rem;
+}
+
+.butt:hover {
+    background-color: rgb(201, 89, 48);
+}
+
+.butt:disabled, .butt[disabled] {
+    color: cornsilk;
+    background-color: brown;
+}
+
+.butt:active {
+    background-color: rgb(151, 62, 29);
+}
